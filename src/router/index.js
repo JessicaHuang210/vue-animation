@@ -11,6 +11,11 @@ const routes = [
     component: Home
   },
   {
+    path: "*",
+    name: "404",
+    component: Home
+  },
+  {
     path: "/about",
     name: "About",
     // route level code-splitting
